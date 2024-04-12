@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Oswald:wght@200..700&display=swap');
+
+
+
+@keyframes animationForBodyNow{
+    from{
+        transform: translateX(100%);
+    }to{
+        transform: translateX(0%);
+    }
+}
+
+
+body {
+   animation: animationForBodyNow 1s;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+main{
+    display: none;
+}
+
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden; 
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0; 
+    transition: opacity 0.1s; 
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 500%;
+    height: 100%;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 100px;
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    mix-blend-mode: screen;
+    color: black; 
+    transition: font-size 0.1s; 
+}
+.hidden {
+    display: none;
+  }
+  
+
+  .AnimationImageScrolles {
+    width: 100%;
+    background-color: white;
+    height: 900px;
+    overflow: hidden;
+}
+
+.ImageDiv {
+    width: 500px;
+    height: 320px;
+    background-image: url('img/mq7-original-aspect.avif');
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease; 
+    max-width: 100%;
+    max-height: 100vh; 
+}
+
+
+
+
+.Visible {
+    opacity: 1;
+}
+
+
+
+.ContentForDefining{
+    width: 100%;
+    display: none;
+}
+  
+
+
+
+
+
+
+
+
+
+.section {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: white;
+   
+}
+
+.image-box {
+    height: 800px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    transform: scale(1.5);
+    transition: transform 1.2s cubic-bezier(0.17, 0.97, 0.38, 1);
+    cursor: url(img/mouse_button_en.svg), auto;
+}
+
+.content-box {
+    padding: 2em;
+}
+
+.title {
+    font-size: 4em;
+    max-width: max-content;
+    margin-block-end: 0.25em;
+    font-size: 2em;
+}
+
+.text {
+    opacity: 0.6;
+    line-height: 2.25;
+    font-size: 0.8em;
+ 
+    font-size: 20px;
+}
+
+[data-reveal="left"],
+[data-reveal="right"] {
+    clip-path: inset(0 100% 0 0);
+}
+
+
+
+
+[data-reveal="left"].revealed,
+[data-reveal="right"].revealed {
+    animation: reveal 1.2s cubic-bezier(0.17, 0.97, 0.38, 1) forwards 300ms;
+}
+
+@keyframes reveal {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        font-size: 2em;
+    }
+    .text {
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
+
+.FooterOne{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    padding: 50px;
+}
+.FooterTwo{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.FooterTwo video{
+    width: 100%;
+}
+
+#TextStyle{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white; 
+    width:640px; 
+    font-size: 55px; 
+}
+
+

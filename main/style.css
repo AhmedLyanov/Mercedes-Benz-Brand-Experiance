@@ -1,0 +1,1752 @@
+
+*{
+     text-decoration: none;
+     -ms-user-select: none; 
+		 -moz-user-select: none; 
+		-webkit-user-select: none; 
+		 user-select: none; 
+     margin:  0;
+  
+}
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.AnimationBodyLogin{
+  background-color: rgb(0, 0, 0);
+animation: BodyLoginAnimation 2s;
+}
+
+
+@keyframes BodyLoginAnimation{
+  from{opacity: 1; transform: translateY(0%);}
+  to{opacity: 0; transform: translateY(100%);}
+}
+
+
+
+
+header {
+  background-color: black;
+   width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 16000;
+    
+  }
+ 
+  
+
+  
+
+
+  
+
+  .Navigation{
+    display: none;
+    z-index: 16000;
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    animation: OpenTheNav 1s;
+  }
+
+
+
+@keyframes OpenTheNav{
+  from{
+   
+   height: 0px;
+  }to{
+    
+    height: 70px;
+  }
+}
+
+.NavigationOff{
+
+animation: CloseTheNav 1s;
+}
+
+
+
+
+@keyframes CloseTheNav{
+  from{
+    opacity: 1;
+    transform: translateY(0px);
+  }to{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+
+
+
+
+
+
+
+#BannerDivTwo{
+  display: grid; 
+  margin-top: 347px;
+   cursor: pointer; 
+   display: none;
+}
+
+
+
+
+
+
+
+
+
+  .MercedesLogotype{
+    width: 60px;
+    height: 60px;
+    animation:  AnimationForLogotype 3s;
+    
+  }
+
+@keyframes AnimationForLogotype {
+  from{
+    box-shadow: 0px 0px 20px 7px white;
+    border-radius: 50px;
+    z-index: 15000;
+    width: 100px;
+    height: 100px;
+    position: relative;
+   
+  }to{
+    box-shadow: 0px 0px 0px 0px white;
+    border-radius: 50px;
+    z-index: 15000;
+    position: relative;
+    width: 60px;
+    height: 60px;
+
+  }
+}
+
+
+
+#AnimationForIntroSite{
+  background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+}
+
+
+
+
+.AnimationForWebSiteIntroOff{
+  animation: forAnimationDiv 1s;
+}
+
+
+
+
+@keyframes forAnimationDiv{
+  from{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 500vh;
+    z-index: 10000;
+  }to{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 0vh;
+    z-index: 10000;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Animation{
+  animation:  animationForBody 1.2s;
+  width: 100%;
+  background-color: black;
+  z-index: 5000;
+  position: absolute;
+  height: 0px;
+}
+
+
+@keyframes animationForBody {
+  from{
+    width: 100%;
+    background-color: black;
+    z-index: 5000;
+    position: absolute;
+    height: 5000px;
+  }to{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 5000;
+    position: absolute;
+    height: 0px;
+  }
+}
+
+
+
+.AnimationEnd{
+  animation: EndAnimationForBody 2s;
+}
+
+@keyframes EndAnimationForBody{
+  from{
+    width: 100%;
+    background-color: black;
+    z-index: 5000;
+    position: absolute;
+    height: 0px;
+  }to{
+    width: 100%;
+    background-color: black;
+    z-index: 5000;
+    position: absolute;
+    height: 5000px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+  .Navigation{
+    height: 70px;
+  }
+
+
+body{
+    animation: animationsite 3s;
+  }
+
+
+  @keyframes animationsite  {
+    from {
+        opacity: 0;
+        background-color: rgb(0, 0, 0);
+    }
+    to {
+        opacity: 1;
+       background-color: rgb(255, 255, 255);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+  .fatherNavigation2{
+    animation: Intro 1s;
+  }
+
+
+  @keyframes Intro {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.ImageBlockOne{
+  width: 500px;
+    height: 720px;
+    background-color: rgb(255, 132, 0);
+    margin-left: 150px;
+    border-radius: 20px
+}
+
+
+
+
+
+
+
+
+.fatherNavigation3{
+    animation: Intro 1s;
+  }
+
+
+  @keyframes Intro {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.Text-Navigation-type-1:hover{
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+.Text-Navigation-type-2:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+.Text-Navigation-type-3:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+
+.FatherNavigation-two p{
+    margin-left: 80px;
+}
+
+
+
+.FatherNavigation-two{
+    animation: Intro2 1s;
+    margin-right: 110px;
+    padding-top: 25px;
+  }
+
+
+  @keyframes Intro2 {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+.color-change {
+    transition: color 0.9s;
+}
+
+.color-change2 {
+  transition: color 0.9s;
+}
+
+.color-change3 {
+  transition: color 0.9s;
+
+}
+
+.color-change4 {
+  transition: color 0.9s;
+
+}
+
+
+.Content-Block-Menu-Vehicles{
+  margin-top: 100px;
+}
+
+.Content-Block-Menu-Exclusive{
+  margin-top: 100px;
+}
+
+.Content-Block-Menu-Innovation{
+  margin-top: 100px;
+}
+
+.Content-Block-Menu-Design{
+  margin-top: 100px;
+}
+
+.Content-Block-Menu-Sustainability{
+  margin-top: 100px;
+}
+
+.Content-Block-Menu-Culture{
+  margin-top: 100px;
+}
+
+
+.NewMain{
+    top: 80px;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    box-shadow: inset 0px -300px 500px -100px;
+  }
+
+  .content{
+    right: 600px;
+  }
+  
+  video{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 600px;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+  
+  .play{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+  }
+  
+  .content{
+    display: block;
+    width: 100%;
+    height: 55%;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  "Times New Roman", Georgia, Serif;
+    font-size: 25px;
+  }
+
+  .TextButton:hover{
+    color: rgb(0, 187, 249);
+    cursor: pointer;
+    animation: animationstyle 1s;
+  }
+
+  @keyframes animationstyle{
+    from{
+        color: rgb(0, 0, 0);
+    }to{
+        color: rgb(0, 187, 249);
+    }
+  }
+
+
+
+  .IntroVideoText{
+    animation: AnimationFromH1 1s;
+  }
+
+
+
+  @keyframes AnimationFromH1{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+        color: #00000000;
+    }to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+
+  .fade-in-left {
+    animation: fade-in-left 2s ease-in-out;
+  }
+  
+  @keyframes fade-in-left {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+     
+    }
+  }
+
+
+
+.AdaptationImgVideos{
+  display: none;
+  width: 100%;
+  height: 300px;
+}
+
+
+
+
+
+.ThreeBlockMainImages{
+  display: flex;
+  justify-content: space-around;
+}
+
+.FourBlockMainImages{
+  display: flex; 
+  margin-top: 120px; 
+  justify-content: space-evenly;
+}
+
+
+.DivBannerTwoDiv{
+  display: grid;
+   cursor: pointer;
+   margin-top: -80px;
+}
+
+  .fade-in-right {
+    animation: fade-in-right 2s ease-in-out;
+  }
+  
+  @keyframes fade-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+
+  .DivBannerTwoImage{
+    width: 500px;
+    height: 320px;
+    background-color: rgb(255, 132, 0);
+    background-image: url(img/mq7-original-aspect\ \(1\).avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .DivBannerTwoImage2{
+    width: 700px;
+     height: 830px; 
+     background-color: rgb(255, 132, 0); 
+     background-image: url(img/MercPrize.jpg); 
+     background-size: cover; 
+     background-position: center;
+  }
+
+
+  .BannerMerc {
+    width: 500px; 
+    height: 300px;
+    margin-left: 0; 
+
+    transition: width 0.5s, height 0.5s, margin-left 0.5s; 
+}
+
+.BannerMerc:hover {
+    width: 520px; 
+    height: 310px; 
+    margin-left: -10px; 
+}
+
+
+.ImageDivBannerOne a img{
+  margin-top: 170px;
+}
+
+
+.DivBannerTwoImageIMAGE:hover {
+background-size: 110%;
+}
+
+
+
+
+
+
+
+
+
+.FooterTextAnimation{
+animation: animationTextFooter 1s;
+}
+
+
+@keyframes animationTextFooter{
+  from{
+    opacity: 0;
+    transform: translateX(-50px);
+  }to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+#OpenVehicles, #OpenExclusive, #OpenInnovation, #OpenDesign, #OpenSustainability, #OpenCulture   {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 5000;
+  transition: height 0.5s;
+  backdrop-filter: blur(10px);
+}
+
+#OpenVehicles.open, #OpenExclusive.open, #OpenInnovation.open, #OpenDesign.open, #OpenSustainability.open, #OpenCulture.open {
+  height: 100%;
+}
+
+
+
+
+
+.numberOne{
+  background-color: black; 
+  width: 92.8%; 
+  height: 500px; 
+  margin-top: 300px; 
+  padding: 65px;
+}
+
+.numberTwo{
+ width: 100%;
+  height: 400px;
+  background: white;
+
+}
+
+.numberThree{
+  width: 100%;
+  height: 800px;
+ 
+  background: rgb(0, 0, 0);
+
+}
+
+.WebIconsFooter {
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+.NeonDreamsClass{
+  width: 700px;
+   height: 430px;
+   background-color: rgb(0, 153, 255);
+   margin-right: 150px; 
+    border-radius: 20px; 
+    background-image: url(img/NeonDreams.avif); 
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+.Navigation-buttons-vehicle{
+margin-top: 65px;
+}
+
+.buttons-text p{
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+
+
+
+
+.Block-For-Exclusive-Number-Six:hover{
+  filter: brightness(55%);
+  transition:  0.5s;
+  
+}
+
+
+.Block-For-Exclusive-Number-Five:hover{
+  filter: brightness(55%);
+  transition:  0.5s;
+  
+}
+
+
+.Block-For-Exclusive-Number-One:hover{
+  filter: brightness(55%);
+  transition:  0.5s;
+  
+}
+
+
+.Block-For-Exclusive-Number-Two:hover{
+  filter: brightness(55%);
+  transition:  0.5s;
+  
+}
+
+.Block-For-Exclusive-Number-Three:hover{
+  filter: brightness(55%);
+  transition: 0.5s;
+  
+}
+
+
+.Block-For-Exclusive-Number-Four:hover{
+  filter: brightness(55%);
+  transition:  0.5s;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Слайдер во вкладке Vehicles */
+.container {
+  width: 50%;
+  margin-left: 75px;
+  position: relative;
+  margin-top: 85px;
+}
+
+.container > .header {
+  margin: 10px;
+  padding: 20px 10px 10px 10px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  text-align: center;  
+}
+
+.container > .header h1 {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+  color: #707a8d;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+.container > .header h1 span{
+  font-weight: 700;
+}
+
+.container > .header h2 {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding: 15px 0 5px 0;
+  color: #4d525d;
+  font-family: Cambria, Georgia, serif;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.9);  
+}
+
+
+
+.sp-slideshow {
+  position: relative;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 1000px;
+  min-width: 260px;
+  height: 460px;
+ 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.sp-content {
+  background: #7d7f72 url("https://i.imgur.com/wO5gzQp.png") repeat scroll 0 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.sp-slideshow input {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  z-index: 1001;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.sp-slideshow input + label {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  display: block;
+  z-index: 1000;
+  border: 3px solid #fff;
+  border: 3px solid rgba(255,255,255,0.9);
+  border-radius: 50%;
+  transition: background-color linear 0.1s;
+}
+
+.sp-slideshow input:checked + label {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.sp-selector-1, .button-label-1 {
+  margin-left: -36px;
+}
+
+.sp-selector-2, .button-label-2 {
+  margin-left: -18px;
+}
+.sp-selector-4, .button-label-4 {
+  margin-left: 18px;
+}
+.sp-selector-5, .button-label-5 {
+  margin-left: 36px;
+}
+
+.sp-arrow {
+  position: absolute;
+  top: 50%;
+  width: 28px;
+  height: 38px;
+  margin-top: -19px;
+  display: none;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 1000;
+  background: transparent url('https://i.imgur.com/yeMfI0Q.png') no-repeat;
+  transition: opacity linear 0.3s;
+}
+
+.sp-arrow:active {
+  margin-top: -18px;
+}
+
+.sp-selector-1:checked ~ .sp-arrow.sp-a2,
+.sp-selector-2:checked ~ .sp-arrow.sp-a3,
+.sp-selector-3:checked ~ .sp-arrow.sp-a4,
+.sp-selector-4:checked ~ .sp-arrow.sp-a5 {
+  right: 15px;
+  display: block;
+  background-position: top right;
+}
+.sp-selector-2:checked ~ .sp-arrow.sp-a1,
+.sp-selector-3:checked ~ .sp-arrow.sp-a2,
+.sp-selector-4:checked ~ .sp-arrow.sp-a3,
+.sp-selector-5:checked ~ .sp-arrow.sp-a4 {
+  left: 15px;
+  display: block;
+  background-position: top left;
+}
+
+.sp-slideshow input:checked ~ .sp-content {
+  transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
+  transition: background-position linear 0.7s;
+}
+
+
+.sp-slider {
+  position: relative;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: left ease-in 0.8s;
+}
+
+.sp-slider > li {
+  color: #fff;
+  width: 20%;
+  box-sizing: border-box;
+  height: 100%;
+ 
+  float: left;
+  text-align: center;
+ 
+  transition: opactiy ease-in 0.4s 0.8s;
+}
+
+.sp-slider > li img {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  
+  max-height: 100%;
+  max-width: 100%;
+}
+
+input.sp-selector-1:checked ~ .sp-content .sp-slider {
+    left: 0;
+}
+ 
+input.sp-selector-2:checked ~ .sp-content .sp-slider {
+    left: -100%;
+}
+ 
+input.sp-selector-3:checked ~ .sp-content .sp-slider {
+    left: -200%;
+}
+ 
+input.sp-selector-4:checked ~ .sp-content .sp-slider {
+    left: -300%;
+}
+ 
+input.sp-selector-5:checked ~ .sp-content .sp-slider {
+    left: -400%;
+}
+
+/* Слайдер во вкладке Vehicles */
+
+
+
+
+
+
+/* Плавное появление текст футора */
+.AnimationTextFooter {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 1s;
+}
+
+.AnimationTextFooter.show-content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* Плавное появление текст футора */
+
+
+
+
+
+/* Плавное появление иконок в футор */
+.WebIconsFooter {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+
+/* Плавное появление иконок в футор */
+
+
+
+
+.FinalDivOne{
+  color: white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+3 футер слова анимация */
+
+
+/* displayInfo1 */
+#purchaseInfo{
+  display: none;
+  animation: AnimationForTextFooter 1s;
+}
+
+@keyframes AnimationForTextFooter {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+#purchaseInfo2{
+  display: none;
+  animation: AnimationForTextFooter2 1s;
+  margin-top: 5px;
+}
+
+@keyframes AnimationForTextFooter2 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
+#purchaseInfo3{
+  display: none;
+  animation: AnimationForTextFooter3 1s;
+  margin-top: 5px;
+}
+
+@keyframes AnimationForTextFooter3 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
+
+
+#purchaseInfo4{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooter4 1s;
+}
+
+@keyframes AnimationForTextFooter4 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
+
+
+#purchaseInfo5{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooter5 1s;
+}
+
+@keyframes AnimationForTextFooter5 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* displayInfo1 */
+
+/* displayInfo2 */
+
+
+
+
+#financeInfo{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooterNumberOne 1s;
+}
+
+@keyframes AnimationForTextFooterNumberOne {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+#financeInfo2{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooterNumberOne2 1s;
+}
+
+@keyframes AnimationForTextFooterNumberOne2 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+#financeInfo3{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooterNumberOne3 1s;
+}
+
+@keyframes AnimationForTextFooterNumberOne3 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/* displayInfo2 */
+
+
+
+
+/* displayInfo3 */
+#servicesInfo{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooterNumberTwo 1s;
+}
+
+@keyframes AnimationForTextFooterNumberTwo {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+#servicesInfo2{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooterNumberTwo2 1s;
+}
+
+@keyframes AnimationForTextFooterNumberTwo2 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
+#servicesInfo3{
+  display: none;
+  margin-top: 5px;
+  animation: AnimationForTextFooterNumberTwo3 1s;
+}
+
+@keyframes AnimationForTextFooterNumberTwo3 {
+  from{
+  transform: translateX(-50px);
+  opacity: 0;
+  }to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/* displayInfo3 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#financeInfo{
+  display: none;
+}
+
+
+
+#servicesInfo{
+  display: none;
+}
+
+
+
+
+
+/* 
+3 футер слова анимация */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /*adaptation */
+
+
+@media (max-width: 1720px) and (min-width: 1610px){
+.content{
+  margin-left: 100px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1610px) and (min-width: 1400px){
+ 
+
+
+
+.numberOne{
+  padding: 57px;
+}
+
+
+
+  .content{
+    margin-left: 100px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1450px) and (min-width: 1150px){
+
+.ThreeBlockMainImages{
+  display: block;
+  margin-left: 260px;
+}
+
+.FourBlockMainImages{
+  display: block;
+  margin-left: 400px;
+}
+
+.DivTwoBlocksImages2{
+  margin-left: -85px;
+}
+
+.imgFooter{
+  width: 500px;
+  height: 300px;
+}
+
+#BannerDivTwo{
+  margin-top: 125px;
+  margin-left: 60px;
+}
+
+  #MercedesVideosBanner{
+    display: none;
+   }
+
+   .AdaptationImgVideos{
+    display: block;
+   }
+
+  .content{
+    justify-content: flex-end;
+    margin-left: -165px;
+  }
+
+  
+
+  .numberOne{
+    padding: 44px;
+  }
+}
+
+
+
+
+@media (max-width: 1150px) and (min-width: 1000px){
+
+  .content{
+    margin-left: 295px;
+  }
+
+  #MercedesVideosBanner{
+    display: none;
+   }
+
+   .ThreeBlockMainImages{
+    display: block;
+    margin-left: 140px;
+  }
+  
+  .FourBlockMainImages{
+    display: block;
+    margin-left: 300px;
+  }
+  
+  .DivTwoBlocksImages2{
+    margin-left: -85px;
+  }
+
+  .imgFooter{
+    width: 300px;
+    height: 200px;
+  }
+
+
+
+
+.numberOne{
+  padding: 38px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+
+
+
+  .FatherNavigation-two {
+    margin-left: 25px;
+  }
+  .FatherNavigation-two p{
+    margin-left: 50px;
+}
+
+
+
+
+
+  .content{
+    margin-left: 385px;
+  }
+  .ThreeBlockMainImages{
+    display: block;
+    margin-left: 140px;
+  }
+  
+  .FourBlockMainImages{
+    display: block;
+    margin-left: 300px;
+  }
+  
+  
+  .imgFooter{
+    width: 265px;
+    height: 170px;
+  }
+
+  .DivBannerTwoImage2{
+    width: 594px;
+  }
+
+.numberOne{
+  padding: 33px;
+}
+
+
+#MercedesVideosBanner{
+  display: none;
+ }
+} 
+
+
+
+
+
+
+
+
+
+
+
+/*adaptation */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Private Animations */
+
+#SetEndAnimation{
+  animation: EndAnmationBody 1s;
+  }
+  @keyframes EndAnmationBody{
+  
+  from{
+  transform: translateX(0px);
+  opacity: 1;
+  position: relative;
+  }to{
+    transform: translateX(-100%);
+    background-color: black;
+    opacity: 0;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adaptation*/
+
+/* @media (max-width:1630px){
+  header{
+    display: none;
+  }
+
+
+} */
+
+
+
+/*Adaptation*/
+
+
+
+
+
+
+
+
+

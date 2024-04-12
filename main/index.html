@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-Benz Brand Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="/content/dam/brandhub/global/logos/MB-star_n_web.svg/_jcr_content/renditions/original" as="image"/>
+    <link rel="shortcut icon" href="img/MB-star_n_web.svg" type="svg/x-icon">
+    
+</head>
+<body>
+
+<div class="TestAnimation"></div>
+
+
+<div id="siteHeader">
+
+<header class="HeaderFixClass"  onmouseover="showNavigation()" onmouseout="hideNavigation()">
+
+    <div class="fatherNavigation" style="display: flex; justify-content: center;">
+
+            <div class="Logotype"> 
+                <picture> 
+                    
+                    <a href="../main/index.html">
+                        <img  class="MercedesLogotype"  src="img/MB-star_n_web.svg"  width="80px" height="60px" alt="" style="margin-top: 10px;">
+                     </a>
+                    
+                </picture> 
+            </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="fatherNavigation2" style="display: flex; justify-content: left;">
+
+        <div class="Navigation-type-1" style="color: gray; margin-top: -50px; padding-left: 15px;"> <p class="Text-Navigation-type-1" style="margin-top: 11px; font-size: 13px; font-family: sans-serif;"  data-i18n="English">English<p> </div>
+
+        <p style="color: gray; margin-top: -42px; padding-left: 15px;">|</p>
+
+        <div class="Navigation-type-1-son"  style="color: gray; margin-top: -38px; padding-left: 15px;">
+            <p id="Russian" class="Text-Navigation-type-2" style="margin-top: auto;  font-size: 13px; font-family: sans-serif;" onclick="TranslateWords()" data-i18n="Russian">Russian<p>
+          </div>
+
+    </div>
+
+
+
+
+
+
+
+    
+    <div class="fatherNavigation3" style="display: flex; justify-content: right;">
+
+        <div class="Navigation-type-1" style="color: gray; margin-top: -54px; padding-right: 15px;">   <p class="Text-Navigation-type-3" id="loginButton" style="margin-top: 12px;  font-size: 13px; font-family: sans-serif;" data-i18n="Login" onclick="GetLoginPage()">Login</p>   </div>
+
+    </div>
+
+
+
+</header>
+
+
+<div id="AnimationForIntroSite"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="Navigation" style="background-color: rgba(0, 0, 0, 0.848);backdrop-filter: blur(5px);" onmouseover="SaveStyleForNav()" onmouseout="DeleteStyleForNav()">
+    
+    <div class="FatherNavigation-two" style="display: flex; justify-content: center;">
+        <p style=" font-family: sans-serif; color: white; cursor: pointer;" class="color-change" onmouseover="changeColor(this)" onmouseout="resetColor()"  data-i18n="WordNawOne" onclick="OpenTheCulture()">Art & Culture</p>
+        <p style=" font-family: sans-serif; color: white; cursor: pointer;" class="color-change" onmouseover="changeColor(this)" onmouseout="resetColor()"  data-i18n="WordNawTwo" onclick="OpenTheSustainability()">Sustainability</p>
+        <p style=" font-family: sans-serif; color: white; cursor: pointer;" class="color-change" onmouseover="changeColor(this)" onmouseout="resetColor()"  data-i18n="WordNawThree" onclick="OpenTheDesign()">Design</p>
+        <p style=" font-family: sans-serif; color: white; cursor: pointer;" class="color-change" onmouseover="changeColor(this)" onmouseout="resetColor()"  data-i18n="WordNawFour" onclick="OpenTheInnovation()">Innovation</p>
+        <p style=" font-family: sans-serif; color: white; cursor: pointer;" class="color-change" onmouseover="changeColor(this)" onmouseout="resetColor()"  data-i18n="WordNawFive" onclick="OpenTheExclusive()">Exclusive</p>
+        <p style=" font-family: sans-serif; color: white; cursor: pointer;" class="color-change" onmouseover="changeColor(this)" onmouseout="resetColor()"  data-i18n="WordNawSix" onclick="OpenTheVehicles()">Vehicles</p>
+    </div>
+
+
+</nav>
+
+<div id="OpenVehicles" style="box-shadow: inset 0px -50px 30px 20px;">
+    <hr>
+    <div class="VehicleBlockMenu" style="padding-left: 100px; padding-right: 100px; padding-top: 15px;">
+
+        <div class="Content-Block-Menu-Vehicles" style=" height: 700px;">
+
+            <div class="ContainerBlockClose" style="display: flex; justify-content: flex-end;"> 
+                 <div class="CloseBlockVehicles">
+                   <p style="color: white; font-size: 40px; cursor: pointer;" onclick="OpenTheVehicles()" >×</p>
+                </div> 
+            </div>
+
+
+            <div class="Container-Panel-vehicle" style="display: flex; justify-content: space-around;">
+
+
+                <div class="Navigation-buttons-vehicle">
+                    <div class="buttons-text">
+
+
+                        <p style="font-family:  Haettenschweiler; color: white; cursor: pointer;"  class="color-change2" onmouseover="changeColor2(this)" onmouseout="resetColor2()">Purchase</p>
+
+                     <a href="New Cars/index.html">
+                        <p style="font-family:  Haettenschweiler; color: white; cursor: pointer;"  class="color-change2" onmouseover="changeColor2(this)" onmouseout="resetColor2()">New Cars</p>
+                     </a>  
+
+
+                        <p style="font-family:  Haettenschweiler; color: white; cursor: pointer;"  class="color-change2" onmouseover="changeColor2(this)" onmouseout="resetColor2()">Configurator</p>
+
+                        <p style="font-family:  Haettenschweiler; color: white; cursor: pointer;"  class="color-change2" onmouseover="changeColor2(this)" onmouseout="resetColor2()">Book a test drive</p>
+                        <p style="font-family:  Haettenschweiler; color: white; cursor: pointer;"  class="color-change2" onmouseover="changeColor2(this)" onmouseout="resetColor2()">Find a retailer</p>
+                        <p style="font-family:  Haettenschweiler; color: white; cursor: pointer;"  class="color-change2" onmouseover="changeColor2(this)" onmouseout="resetColor2()">Classic Store</p>
+                    </div>
+                </div>
+
+               
+
+
+
+
+
+
+
+
+
+
+                <div class="container">
+                  
+                  
+                  <div class="sp-slideshow">
+                    
+                    <input type="radio" id="button-1" name="radio-set" class="sp-selector-1" checked="checked" />
+                    <label for="button-1" class="button-label-1"></label>
+                    
+                    <input type="radio" id="button-2" name="radio-set" class="sp-selector-2" />
+                    <label for="button-2" class="button-label-2"></label>
+                    
+                    <input type="radio" id="button-3" name="radio-set" class="sp-selector-3" />
+                    <label for="button-3" class="button-label-3"></label>
+                    
+                    <input type="radio" id="button-4" name="radio-set" class="sp-selector-4" />
+                    <label for="button-4" class="button-label-4"></label>
+                    
+                    <input type="radio" id="button-5" name="radio-set" class="sp-selector-5" />
+                    <label for="button-5" class="button-label-5"></label>
+                    
+                    <label for="button-1" class="sp-arrow sp-a1"></label>
+                    <label for="button-2" class="sp-arrow sp-a2"></label>
+                    <label for="button-3" class="sp-arrow sp-a3"></label>
+                    <label for="button-4" class="sp-arrow sp-a4"></label>
+                    <label for="button-5" class="sp-arrow sp-a5"></label>
+                    
+                    <div class="sp-content">
+                      <div class="sp-parallax-bg"></div>
+                      <ul class="sp-slider clearfix">
+                        <li><img src="img/mercedes-52.jpg" alt="image01" /></li>
+                        <li><img src="img/maybach.jpeg" alt="image02" /></li>
+                        <li><img src="img/g-class.avif" alt="image03" /></li>
+                        <li><img src="img/mq5-original-aspect.avif" alt="image04" /></li>
+                        <li><img src="img/mq7-original-aspect (1).avif" alt="image05" /></li>
+                      </ul>
+                    </div>>
+                      
+                    
+                  </div> 
+                  
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="twoImage-inside-for-vehicle">
+
+                    <div class="twoImage-model-one" style="background-image: url(img/VehicleWelcone.jpg); background-size: cover; background-position: center;width: 250px; height: 150px; margin-top: 100px; box-shadow: inset 0px -20px 20px 0px">
+                        <h1 style="text-align: center; color: white; font-size: 25px; line-height: 295px; width: 400px; margin-left: -70px;">Welcome to the Future</h1>
+                    </div>
+
+
+
+
+                  
+                    <div class="twoImage-model-one" style="background-image: url(img/BackgroundVehicleBlock.avif); background-size: cover; background-position: center;width: 250px; height: 150px; margin-top: 200px; box-shadow: inset 0px -20px 20px 0px">
+                        <h1 style="text-align: center; color: white; font-size: 17px; line-height: 295px; width: 400px; margin-left: -70px;">Classics, Festivals & Milestones</h1>
+                    </div>
+
+
+                </div>
+
+
+           
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<div id="OpenExclusive">
+    <hr>
+    <div class="ExclusiveBlockMenu" style="padding-left: 100px; padding-right: 100px; padding-top: 15px;">
+
+         <div class="Content-Block-Menu-Exclusive" style="height: 700px;">
+        
+            <div class="ContainerBlockClose" style="display: flex; justify-content: flex-end;"> 
+                <div class="CloseBlockVehicles">
+                  <p style="color: white; font-size: 40px; cursor: pointer;" onclick="OpenTheExclusive()" >×</p>
+               </div> 
+               
+           </div>
+
+            <div class="Container-Block-For-Exclusive" style="display: flex; padding-left: 210px; padding-right: 210px; flex-wrap: wrap;">
+
+                 
+                  
+                 <div class="Block-For-Exclusive-Number-One" style="background-image: url(img/ExclusiveImageOne.avif); background-size: cover; background-position: center;width: 350px; height: 190px;  box-shadow: inset 0px -20px 20px 0px; margin-left: 50px; margin-top: 70px; cursor: pointer;">
+                    <h1 style="text-align: center; color: white; font-size: 25px; line-height: 360px; width: 400px; margin-left: -20px; font-family:'Times New Roman', Times, serif;">G-class Private Lounge</h1>
+                 </div>
+
+ 
+                 <div class="Block-For-Exclusive-Number-Two" style="background-image: url(img/ExclusiveImageTwo.avif); background-size: cover; background-position: center;width: 350px; height: 190px;  box-shadow: inset 0px -20px 20px 0px; margin-left: 50px; margin-top: 70px; cursor: pointer;">
+                    <h1 style="text-align: center; color: white; font-size: 25px; line-height: 360px; width: 400px; margin-left: -20px; font-family:'Times New Roman', Times, serif;">Natural Beauty</h1>
+                 </div>
+                 
+
+                 
+                 <div class="Block-For-Exclusive-Number-Three" style="background-image: url(img/ExclusiveImageThree.avif); background-size: cover; background-position: center;width: 350px; height: 190px;  box-shadow: inset 0px -20px 20px 0px; margin-left: 50px; margin-top: 70px; cursor: pointer;">
+                    <h1 style="text-align: center; color: white; font-size: 25px; line-height: 360px; width: 400px; margin-left: -20px; font-family:'Times New Roman', Times, serif;">A strong worldwide community</h1>
+                 </div>
+
+              
+                 <div class="Block-For-Exclusive-Number-Four" style="background-image: url(img/ExclusiveImageFour.avif); background-size: cover; background-position: center;width: 350px; height: 190px;  box-shadow: inset 0px -20px 20px 0px; margin-left: 50px; margin-top: 70px; cursor: pointer;">
+                    <h1 style="text-align: center; color: white; font-size: 25px; line-height: 360px; width: 400px; margin-left: -20px; font-family:'Times New Roman', Times, serif;">Off for an adventure</h1>
+                 </div>
+
+                 
+                 <div class="Block-For-Exclusive-Number-Five" style="background-image: url(img/ExclusiveImageFive.avif); background-size: cover; background-position: center;width: 350px; height: 190px;  box-shadow: inset 0px -20px 20px 0px; margin-left: 50px; margin-top: 70px; cursor: pointer;">
+                    <h1 style="text-align: center; color: white; font-size: 25px; line-height: 360px; width: 400px; margin-left: -20px; font-family:'Times New Roman', Times, serif;">Nigel loves G 63</h1>
+                 </div>
+
+               
+                 <div class="Block-For-Exclusive-Number-Six" style="background-image: url(img/ExclusiveImageSix.avif); background-size: cover; background-position: center;width: 350px; height: 190px;  box-shadow: inset 0px -20px 20px 0px; margin-left: 50px; margin-top: 70px; cursor: pointer;">
+                    <h1 style="text-align: center; color: white; font-size: 25px; line-height: 360px; width: 400px; margin-left: -20px; font-family:'Times New Roman', Times, serif;">Starting young</h1>
+                 </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div id="OpenInnovation"> 
+    <hr>
+    <div class="InnovationBlockMenu" style="padding-left: 100px; padding-right: 100px; padding-top: 15px;">
+
+        <div class="Content-Block-Menu-Innovation" style=" height: 700px;">
+
+            <div class="ContainerBlockClose" style="display: flex; justify-content: flex-end;"> 
+                <div class="CloseBlockVehicles">
+                  <p style="color: white; font-size: 40px; cursor: pointer;" onclick="OpenTheInnovation()" >×</p>
+                </div> 
+           </div>
+
+                <div class="LyneForYearsInnovationCars">
+                    
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+    
+        </div>
+
+    </div> 
+</div>
+
+
+
+
+
+<div id="OpenDesign" >
+    <hr>
+    <div class="DseignBlockMenu" style="padding-left: 100px; padding-right: 100px; padding-top: 15px;">
+
+        <div class="Content-Block-Menu-Design" style=" height: 700px;">
+
+             <div class="ContainerBlockClose" style="display: flex; justify-content: flex-end;"> 
+                 <div class="CloseBlockVehicles">
+                   <p style="color: white; font-size: 40px; cursor: pointer;" onclick="OpenTheDesign()" >×</p>
+                 </div> 
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<div id="OpenSustainability">
+    <hr>
+    <div class="SustainabilityBlockMenu" style="padding-left: 100px; padding-right: 100px; padding-top: 15px;">
+
+        <div class="Content-Block-Menu-Sustainability" style=" height: 700px;">
+
+            <div class="ContainerBlockClose" style="display: flex; justify-content: flex-end;"> 
+                <div class="CloseBlockVehicles">
+                  <p style="color: white; font-size: 40px; cursor: pointer;" onclick="OpenTheSustainability()" >×</p>
+               </div> 
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<div id="OpenCulture">
+    <hr>
+    <div class="CultureBlockMenu" style="padding-left: 100px; padding-right: 100px; padding-top: 15px;">
+
+        <div class="Content-Block-Menu-Culture" style=" height: 700px;">
+
+              <div class="ContainerBlockClose" style="display: flex; justify-content: flex-end;"> 
+                  <div class="CloseBlockVehicles">
+                    <p style="color: white; font-size: 40px; cursor: pointer;" onclick="OpenTheCulture()" >×</p>
+                 </div> 
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main class="NewMain" id="AnimationForVideoDivScrolles">
+
+    <video id="MercedesVideosBanner" playsinline="" autoplay="" loop="" muted="">
+        
+        <img src="img/ElectroMercedes.jpg" class="AdaptationImgVideos">
+        <source src="img/MercedesBenzNow.mp4" type="video/mp4"></video>
+        <div class="play"></div>
+            <div class="content" >
+
+              <div class="ButtonBlockFather">
+                  <h1 class="IntroVideo" id="TextAnimationH1Button" style="display: none; margin-bottom: 15px;">DEFINING CLASS</h1>
+                  
+                    <div class="ButtonBlock" style="background-color: white; width: 200px; height: 50px; border-radius: 20px; line-height: 50px; color: black; font-family: sans-serif;"> <p class="TextButton" style="padding-left: 15px; font-size: 20px;" onclick="GetNewWebSite()">Discover more  	→</p> </div>
+                 
+                
+            </div>
+         </div>
+
+        
+
+</main>
+
+
+
+
+<div class="ShadowDivMode" id="ShadowModeScrollIntoView"></div>
+
+
+
+
+
+
+
+
+
+<div class="DivBannerTwoImageForBottomNewMain" style="background-image: url(img/GelendwagenBanner.webp); background-size: cover; width: 100%; height: 850px; box-sizing: border-box;">
+
+
+    <div class="ContentForTwoImage" style="margin-left: 70px; padding-top: 250px;">
+
+        <h1 style="color: white; line-height: 100px; font-size: 50px;">The  Geländewagen</h1>
+
+
+        <div class="ButtonForTwoImage" style="width: 150px; height: 30px; background-color: white; border-radius: 30px; text-align: center;">
+           <p style="line-height: 32px;">Discover more  	→</p>
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<main>
+   <div class="OneBlockMainImages" id="MainForContentWebSite">
+        <div class="TwoBlockMainImages" style="margin-top: 100px;">
+
+            <div class="ThreeBlockMainImages"  >
+               
+                <div class="BlockImage" >
+                    <div class="DivBannerOne" id="BannerDivOne" style="display: grid; display: none; ">
+                        <p style=" color: rgb(0, 0, 0); margin-left: 150px;">Responsibility</p>
+                        <h1 style=" color: rgb(0, 0, 0); margin-left: 150px;">Inclusion is unstoppable</h1>
+                         <div class="ImageBlockOne" style="cursor: url(../Models/img/mouse_button_en.svg), auto;">
+                            
+                                <div class="ImageDivBannerOne"style="cursor: url(../Models/img/mouse_button_en.svg), auto;" >
+                                    <a href="" style="cursor: url(../Models/img/mouse_button_en.svg), auto;">
+                                         <img  src="img/MercedesBanner.png" class="BannerMerc" width="500px" height="300px" alt="">
+                                    </a>
+                                </div>
+                           
+                         </div>
+
+                    </div>     
+                </div>
+
+
+
+
+
+                
+
+
+
+                <div class="BlockImageTwo" >
+
+                      <div class="DivBannerTwo" id="BannerDivTwo" style="cursor: url(../Models/img/mouse_button_en.svg), auto;"> 
+                             <p style="font-family: sans-serif; color: rgb(0, 0, 0);">Future Mobility</p>
+                              <h1 style="font-family:Times New Roman, Georgia, Serif;; color: rgb(0, 0, 0); ">Neon Dreams</h1>
+                               <div class="NeonDreamsClass">
+
+                               </div>   
+
+                      </div>
+
+                </div>
+                
+
+            </div>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            <div class="FourBlockMainImages">
+                
+
+
+
+                <div class="DivTwoBlocksImages" >
+                    <div class="DivBannerTwoDiv" >
+                        <p style=" color: rgb(0, 0, 0);">Milestones</p>
+                        <h1 style=" color: rgb(0, 0, 0);">Defining Class since 1886.</h1>
+                           <div class="DivBannerTwoImage" style="cursor: url(../Models/img/mouse_button_en.svg), auto;">
+
+                        </div>
+                    </div> 
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="DivTwoBlocksImages2">
+                    <div class="DivBannerTwoDiv2" style="display: grid; margin-top: 70px; cursor: pointer;">
+                        <p style=" color: rgb(0, 0, 0);">Exlusive</p>
+                        <h1 style=" color: rgb(0, 0, 0);">Mercedes-Benz' new Sustainability Prize</h1>
+                        <div class="DivBannerTwoImage2" style="cursor: url(../Models/img/mouse_button_en.svg), auto;">
+
+                        </div>
+                    </div> 
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+   </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="numberOne" id="testnow">
+
+    <div class="FooterBlockOne" style="display: flex; justify-content: space-between;">
+
+
+
+        <div class="FooterBlockChildText">
+
+            <div class="MasterPieceText" >
+                <p style="color: white; font-size: 20px; display: none;" class="FooterTextOne">Inspired by the sense of freedom </p>
+                <h1 style="color: white; font-size: 50px; width: 415px; display: none;" class="FooterTextOne2">Masterpiece in the desert.</h1>
+            </div>
+
+
+
+
+
+
+            <div class="interior" style="margin-top: 50px;">
+                <p style="color: white; font-size: 20px; margin-top: 220px; width: 620px;">Interior designer John Vugrin has dedicated his career to a house that is making architectural history.
+                     A journey through the California desert.</p>
+                     <div class="ButtonDivFooterText" style="background-color: white; width: 150px; height: 50px; border-radius: 20px; cursor: pointer; margin-top: 20px;">
+                        <div class="ButtonDivChildFooter" style="text-align: center; line-height: 49px;">
+                            <p style="font-family: sans-serif;">Discover more →</p>
+                        </div>
+                     </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="FooterBlockChildImage">
+            <div class="NewBlockForImageFooter">
+                <div class="ImageForFooterChild">
+                    <img src="img/mq5-original-aspect.avif" class="imgFooter" width="650px" height="400px">
+                </div>
+                <p style="color: gray;">Text: Josefine Klatt | Photos: Daniel Dorsa</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+</footer>
+<footer class="numberTwo">
+    <div class="TwoFooterFollowMerc">
+
+
+        <div class="TextDivFooter">
+            <h1 class="AnimationTextFooter" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); text-align: center; font-weight:10; font-size: 60px;padding-top: 110px;">Follow Mercedes-Benz</h1>
+        </div>
+
+        <div class="WebIconsFooter" style="display: flex; justify-content: center;">
+
+            <div class="IconForInsta" id="AnimationBlockFooterIcons" style="cursor: pointer;" title="Instagram">
+                <img src="img/IconForFooterInsta.svg" width="50px">
+            </div>
+
+
+            <div class="IconForFacebook" id="AnimationBlockFooterIcons" style="cursor: pointer;" title="Facebook">
+                <img src="img/IconForFooterFacebook.svg" width="50px" style="margin-left: 100px;">
+            </div>
+
+
+            
+            <div class="IconForTwitter" id="AnimationBlockFooterIcons" style="cursor: pointer;" title="Twitter">
+                <img src="img/IconForFooterTwitter.svg" width="50px" style="margin-left: 100px;">
+            </div>
+
+
+
+            
+            <div class="IconForLinkedin" id="AnimationBlockFooterIcons" style="cursor: pointer;" title="Linkedin">
+                <img src="img/IconForFooterLInkedin.svg" width="50px" style="margin-left: 100px;">
+            </div>
+
+
+            
+            <div class="IconForYouTube" id="AnimationBlockFooterIcons" style="cursor: pointer;" title="YouTube">
+                <img src="img/IconForFooterYouTube.svg" width="50px" style="margin-left: 100px;">
+            </div>
+
+
+            
+            <div class="IconForTikTok" id="AnimationBlockFooterIcons" style="cursor: pointer;" title="TikTok">
+                <img src="img/IconForFooterTikTok.svg" width="50px" style="margin-left: 100px;">
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</footer>
+<footer class="numberThree">
+    <div class="FatherForDivAnimation" style="padding-top: 200px; padding-left: 150px;">
+
+        <div class="DivAnimationFinalText" style="display: flex;">
+            <div class="FinalDivOne" style="display:flex;">
+                <div class="FatherTextOne">
+                    <div class="TextOne">
+                        <h1 style="font-size: 60px; cursor: pointer;" class="color-change3" onclick="displayInfo1()"  onmouseover="changeColor3(this)" onmouseout="resetColor3()">Purchase</h1>
+                    </div>
+                    <div class="TextTwo">
+                        <h1 style="font-size: 60px; cursor: pointer;" class="color-change3" onclick="displayInfo2()" onmouseover="changeColor3(this)" onmouseout="resetColor3()">Finance</h1>
+                    </div>
+                    <div class="TextThree">
+                        <h1 style="font-size: 60px; cursor: pointer;" class="color-change3" onclick="displayInfo3()" onmouseover="changeColor3(this)" onmouseout="resetColor3()">Services</h1>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="FinalDivTwo" style="margin-left: 200px;">
+                
+                <div class="FinaleTextDiv1" style="padding-top: 15px;" >
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="purchaseInfo">Vehicles</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="purchaseInfo2">Acessories</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="purchaseInfo3">Digital Extras</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="purchaseInfo4">Lifestyle Collection</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="purchaseInfo5">Classic Cars</p>
+                </div>
+
+                <div class="FinaleTextDiv2">
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="financeInfo">Leasing</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="financeInfo2">Rent</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="financeInfo3">Insurance</p>
+                </div>
+
+                <div class="FinaleTextDiv3">
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="servicesInfo">Mercedes Me</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="servicesInfo2">Service & Parts</p>
+                    <p style="color: gray; font-size: 20px; display: none;" class="InformationButtons" id="servicesInfo3">Driving Aids</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
